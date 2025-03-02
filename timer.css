@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffcac7;
+    
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: #ffea00;
+    background-image: url(egg2.jpg);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+#timer-display {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.buttons button, .controls button {
+    background-color: hsl(192, 50%, 50%);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0099ff;
+}
+
